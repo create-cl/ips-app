@@ -1,0 +1,608 @@
+{
+  "resourceType": "Bundle",
+  "id": "{{IPS_template_id}}",
+  "identifier": {
+    "system": "urn:oid:2.16.724.4.8.10.200.10",
+    "value": "175bd032-8b00-4728-b2dc-748bb1501aed"
+  },
+  "type": "document",
+  "timestamp": "2024-07-10T14:30:40+00:00",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:40a689ac-cf98-4d04-9a7e-b86f8f8e28a5",
+      "resource": {
+        "resourceType": "Composition",
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "60591-5",
+              "display": "Patient Summary Document"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:3550983a-1d20-46ec-8d23-bbbd6dd2a7f1"
+        },
+        "date": "2024-07-10T14:30:40+00:00",
+        "author": [
+          {
+            "reference": "urn:uuid:1c616b24-3895-48c4-9a02-9a64110351ef"
+          }
+        ],
+        "title": "International Patient Summary",
+        "confidentiality": "N",
+        "custodian": {
+          "reference": "urn:uuid:80925064-89fc-4744-92ec-7e55b4ac89f3"
+        },
+        "section": [
+          {
+            "title": "Active Problems",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list Reported"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Hot flushes</div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:1ec3c06f-2dea-4310-949a-6238a8595935"
+              },
+              {
+                "reference": "urn:uuid:bd10af3a-f379-4946-814a-5c3abef2800e"
+              }
+            ]
+          },
+          {
+            "title": "Medication",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "History of Medication use Narrative"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">To be populated at future time</div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:0f93a776-a8cd-46cf-b958-0d41169e11b2"
+              }
+            ]
+          },
+          {
+            "title": "Allergies and Intolerances",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2",
+                  "display": "Allergies and adverse reactions Document"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">To be populated at future time</div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:00ea8240-622c-45dc-bda0-1806149557f4"
+              }
+            ]
+          },
+          {
+            "title": "History of Immunizations",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11369-6",
+                  "display": "History of Immunization Narrative"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">To be populated at future time</div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:39170fce-faf9-47fd-a7db-b2c746a40197"
+              },
+              {
+                "reference": "urn:uuid:501cc22f-00dd-43c1-9ff6-888adec20fb2"
+              }
+            ]
+          },
+          {
+            "title": "History of Past Illness",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11348-0",
+                  "display": "Hx of Past illness"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Breast cancer Stage II with no evidence of recurrence following treatment</div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:bd923092-1908-4739-be9e-1e67b6cb06b6"
+              }
+            ]
+          },
+          {
+            "title": "Results",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "30954-2",
+                  "display": "Relevant diagnostic tests/laboratory data Narrative"
+                }
+              ]
+            },
+            "text": {
+              "status": "empty",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>narrative needs to be generated</p></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:2ecde3c2-45d7-4b6a-a60c-01785b298566"
+              }
+            ]
+          },
+          {
+            "title": "History of Procedures",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "47519-4",
+                  "display": "History of Procedures Document"
+                }
+              ]
+            },
+            "text": {
+              "status": "empty",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>narrative needs to be generated</p></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:b2c36513-54ef-4f16-a382-4261bd3f2819"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3550983a-1d20-46ec-8d23-bbbd6dd2a7f1",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "3550983a-1d20-46ec-8d23-bbbd6dd2a7f1",
+        "name": [
+          {
+            "text": "{{first_name}} {{family_name}}",
+            "family": "{{family_name}}",
+            "given": [
+              "{{first_name}}"
+            ]
+          }
+        ],
+        "gender": "{{gender}}",
+        "birthDate": "{{birth_date}}",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex",
+            "valueCode": "{{birth_sex}}"
+          }
+        ],
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "{{id_code}}"
+                }
+              ]
+            },
+            "system": "urn:oid.2.16.152",
+            "value": "{{id_value}}"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1c616b24-3895-48c4-9a02-9a64110351ef",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "1c616b24-3895-48c4-9a02-9a64110351ef",
+        "name": [
+          {
+            "text": "{{first_name_professional}} {{family_name_professional}}",
+            "family": "{{family_name_professional}}",
+            "given": [
+              "{{first_name_professional}}"
+            ]
+          }
+        ],
+        "address": [
+          {
+            "country": "{{professional_country}}"
+          }
+        ],
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "{{id_code_professional}}"
+                }
+              ]
+            },
+            "system": "urn:oid.2.16.152",
+            "value": "{{id_value_professional}}"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "HC"
+                }
+              ]
+            },
+            "system": "urn:oid.2.16.152",
+            "value": "{{id_value_professional_2}}"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:80925064-89fc-4744-92ec-7e55b4ac89f3",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "80925064-89fc-4744-92ec-7e55b4ac89f3",
+        "name": "{{organization_name}}",
+        "address": [
+          {
+            "country": "{{organization_country}}",
+            "city": "{{organization_city}}"
+          }
+        ],
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "XX"
+                }
+              ]
+            },
+            "system": "urn:oid.2.16.152",
+            "value": "{{id_value_organization}}"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1ec3c06f-2dea-4310-949a-6238a8595935",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "1ec3c06f-2dea-4310-949a-6238a8595935",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "{{code_condition_1}}",
+              "display": "{{name_condition_1}}"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:3550983a-1d20-46ec-8d23-bbbd6dd2a7f1"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:bd10af3a-f379-4946-814a-5c3abef2800e",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "bd10af3a-f379-4946-814a-5c3abef2800e",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "{{code_condition_2}}",
+              "display": "{{name_condition_2}}"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:3550983a-1d20-46ec-8d23-bbbd6dd2a7f1"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:bd923092-1908-4739-be9e-1e67b6cb06b6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "bd923092-1908-4739-be9e-1e67b6cb06b6",
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "inactive",
+              "display": "Inactive"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "Encounter Diagnosis"
+              }
+            ],
+            "text": "Encounter Diagnosis"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "{{code_diagnostic}}",
+              "display": "{{name_diagnostic}}"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:3550983a-1d20-46ec-8d23-bbbd6dd2a7f1"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:39170fce-faf9-47fd-a7db-b2c746a40197",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "39170fce-faf9-47fd-a7db-b2c746a40197",
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://id.who.int/icd11/mms",
+              "code": "{{vaccine_code_1}}",
+              "display": "{{vaccine_name_1}}"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "urn:uuid:3550983a-1d20-46ec-8d23-bbbd6dd2a7f1"
+        },
+        "occurrenceDateTime": "2024-07-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:501cc22f-00dd-43c1-9ff6-888adec20fb2",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "501cc22f-00dd-43c1-9ff6-888adec20fb2",
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://id.who.int/icd11/mms",
+              "code": "{{vaccine_code_2}}",
+              "display": "{{vaccine_name_2}}"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "urn:uuid:3550983a-1d20-46ec-8d23-bbbd6dd2a7f1"
+        },
+        "occurrenceDateTime": "2024-07-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:00ea8240-622c-45dc-bda0-1806149557f4",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "00ea8240-622c-45dc-bda0-1806149557f4",
+        "patient": {
+          "reference": "urn:uuid:3550983a-1d20-46ec-8d23-bbbd6dd2a7f1"
+        },
+        "clinicalStatus" : {
+          "coding" : [
+            {
+              "system" : "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+              "code" : "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "{{allergy_code}}",
+              "display": "{{allergy_name}}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0f93a776-a8cd-46cf-b958-0d41169e11b2",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "0f93a776-a8cd-46cf-b958-0d41169e11b2",
+        "status": "unknown",
+        "medicationReference": {
+          "reference": "urn:uuid:a87c9599-0147-4eb0-bf70-04ba57b274ac"
+        },
+        "subject": {
+          "reference": "urn:uuid:3550983a-1d20-46ec-8d23-bbbd6dd2a7f1"
+        },
+        "effectiveDateTime": "2024-07-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a87c9599-0147-4eb0-bf70-04ba57b274ac",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "a87c9599-0147-4eb0-bf70-04ba57b274ac",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "{{medication_code_1}}",
+              "display": "{{medication_name_1}}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b2c36513-54ef-4f16-a382-4261bd3f2819",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "b2c36513-54ef-4f16-a382-4261bd3f2819",
+        "status": "unknown",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "{{procedure_code}}",
+              "display": "{{procedure_name}}"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:3550983a-1d20-46ec-8d23-bbbd6dd2a7f1"
+        },
+        "performedDateTime": "2024-07-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2ecde3c2-45d7-4b6a-a60c-01785b298566",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "2ecde3c2-45d7-4b6a-a60c-01785b298566",
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "{{lab_code}}",
+              "display": "{{lab_name}}"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:3550983a-1d20-46ec-8d23-bbbd6dd2a7f1"
+        },
+        "effectiveDateTime": "2024-07-10",
+        "valueString": "{{lab_result}}"
+      }
+    }
+  ]
+}

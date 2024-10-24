@@ -1,0 +1,178 @@
+{
+    "nav": {
+        "viewer": "Visor",
+        "search_ips": "Consultar IPS",
+        "health_check": "Health Check"
+    },
+    "viewer": {
+        "input": {
+          "ips_input": "Pega el IPS aquí",
+          "fhir_server": "Servidor FHIR",
+          "bundle_id": "ID del Bundle",
+          "no_ips": "No se ha cargado un IPS"
+        },
+        "buttons": {
+          "load_ips": "Ver IPS",
+          "delete": "Borrar",
+          "search_ips": "Buscar IPS"
+        },
+        "alerts": {
+          "immunization_warning": "Advertencia: El recurso de inmunizaciones no se encuentra en el IPS"
+        },
+        "dialogs": {
+          "ips_problems": "IPS contiene errores",
+          "missing_fields": "Los siguientes campos faltantes son requeridos:",
+          "cardinality_errors": "Los siguientes campos no cumplen con la cardinalidad correcta:",
+          "format_errors": "Los siguientes campos no cumplen con el formato correcto:",
+          "valid_ips": "IPS válido",
+          "json_format":"IPS no cumple con formato JSON"
+        }
+      },
+      "search_ips": {
+        "title": "Consultar IPS (ITI-67)",
+        "patient_id_label": "Identificador del paciente",
+        "search_button": "Buscar",
+        "results_found": "Resultados",
+        "no_results_found": "No se encontraron resultados",
+        "table": {
+          "country": "País",
+          "link": "Link",
+          "view": "Ver"
+        }
+      },
+      "health_check": {
+        "title": "Health-check nodos país",
+        "table": {
+          "country": "País",
+          "server": "Servidor Fhir",
+          "available": "Disponible"
+        },
+        "buttons": {
+          "update": "Actualizar"
+        }
+      },
+      "ipsviewer": {
+        "header": "Encabezado",
+        "summary_date": "Última actualización",
+        "domain": "Dominio",
+        "patient": {
+          "birthdate": "Fecha de nacimiento",
+          "years_old": "años"
+        },
+        "sections": {
+          "allergies": "Alergias",
+          "active_conditions": "Diagnósticos / Problemas activos",
+          "past_conditions": "Diagnósticos / Problemas pasados",
+          "medications": "Medicamentos activos",
+          "immunizations": "Inmunizaciones",
+          "observations": "Observaciones"
+        },
+        "author": {
+          "title": "Autor",
+          "name": "Nombre",
+          "address": "Dirección",
+          "id": "Identificador"
+        },
+        "custodian": {
+          "title": "Encargado",
+          "name": "Nombre",
+          "address": "Dirección"
+        },
+        "criticality": "Criticidad",
+        "route": "Vía de administración",
+        "date": "Fecha",
+        "allergy_levels": {
+            "low": "bajo",
+            "high": "alto",
+            "unable-to-assess": "incapaz de evaluar",
+            "undefined": "indefinido"
+        },
+        "conditions_status": {
+            "active": "activo",
+            "remission": "remisión",
+            "recurrence": "recurrencia",
+            "relapse": "recaída",
+            "inactive": "inactivo",
+            "resolved": "resuelto",
+            "undefined": "indefinido"
+        },
+        "conditions_severity": {
+            "severe": "severo",
+            "moderate": "moderado",
+            "mild": "leve",
+            "undefined": "indefinido"
+        },
+        "dosage_headers": {
+            "route": "Vía de administración",
+            "count": "Cantidad",
+            "unit": "Unidad",
+            "dose_quantity": "Frecuencia cantidad",
+            "period_unit": "Frecuencia período"
+        },
+        "observation_headers": {
+            "name": "Nombre",
+            "date": "Fecha",
+            "value": "Valor",
+            "category": "Categoría"
+        },
+        "allergy_types": {
+            "intolerance": "intolerancia",
+            "allergy": "alergia"
+        },
+        "undefined": "indefinido"
+      },
+      "vhl": {
+        "tabs": {
+            "generate": "Generar VHL",
+            "view": "Ver VHL"
+        },
+        "generate": {
+          "id_label": "ID del Bundle",
+          "server_label": "Servidor FHIR",
+          "search_button": "Buscar",
+          "results_found": "Se encontraron los siguientes resultados",
+          "no_results_found": "No se encontraron resultados",
+          "no_data_loaded": "No se han cargado datos",
+          "results_select": "Selecciona los recursos que se incluirán en el VHL",
+          "passcode_label": "Código de acceso",
+          "period_label": "Periodo de validez",
+          "generate_button": "Generar VHL",
+          "download_button": "Descargar",
+          "qr_code": "Código QR",
+          "period": {
+            "day": "1 día",
+            "week": "1 semana",
+            "month": "1 mes",
+            "no_expiration": "Sin expiración"
+          }
+        },
+        "view": {
+          "qr_input_label": "Subir código QR",
+          "passcode_label": "Código de acceso",
+          "verify_button": "Verificar",
+          "valid_link": "El link es válido",
+          "invalid_qr": "El QR no es válido",
+          "incorrect_passcode": "Clave incorrecta",
+          "view_ips_button": "Ver IPS",
+          "error_loading_ips": "Error al cargar el IPS"
+        }
+      },
+      "dvc": {
+        "tabs": {
+          "generate": "Generar DVC",
+          "view": "Ver DVC"
+        },
+        "generate": {
+          "id_label": "ID del Bundle",
+          "server_label": "Servidor FHIR",
+          "mediator_label": "Mediador FHIR"
+        },
+        "view": {
+          "valid_link": "El certificado es válido"
+        }
+      },
+      "qr_input": {
+        "label": "Arrastra o cliquea para subir el código QR"
+      }
+
+}

@@ -1,0 +1,40 @@
+{
+  "host": "186.64.123.214:5432",
+  "port": 5002,
+  "public": "../static/",
+  "paginate": {
+    "default": 20,
+    "max": 100
+  },
+  "authentication": {
+    "entity": "user",
+    "service": "users",
+    "secret": "ZHNhZGFkc2FhZHRj8XNkc2EejsaEd=",
+    "authStrategies": [
+      "jwt",
+      "local"
+    ],
+    "jwtOptions": {
+      "header": {
+        "typ": "access"
+      },
+      "audience": "https://ips.create.cl",
+      "issuer": "feathers",
+      "algorithm": "HS256",
+      "expiresIn": "90d"
+    },
+    "local": {
+      "usernameField": "email",
+      "passwordField": "password"
+    }
+  },
+  "postgres": "postgres://admin:adminips@186.64.123.214:5432/ips", 
+ "admin": {
+    "email": "admin@create.cl",
+    "password": "admin2023"
+  },
+  "files": {
+    "directory": "uploads",
+    "size": 5
+  }
+}

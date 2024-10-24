@@ -1,0 +1,466 @@
+{
+    "resourceType": "Bundle",
+    "identifier": {
+		"system": "urn:ietf:rfc:4122", 
+		"value": "1" 
+	},
+    "type": "document",
+    "timestamp": "2024-07-09T12:24:22.311+00:00",
+    "entry": [
+        {
+            "fullUrl": "urn:uuid:0cdf6938-8dd5-49cf-aaff-777b24f4880b",
+            "resource": {
+                "resourceType": "Composition",
+                "id": "0cdf6938-8dd5-49cf-aaff-777b24f4880b",
+                "meta": {
+                    "profile" : [
+                       "http://lacpass.racsel.org/StructureDefinition/lac-composition-ddcc"
+                    ]
+                },
+                "text" : {
+                    "status" : "generated",
+                    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Composition_LACCompositionExample\"> </a><p><b>Generated Narrative: Composition</b><a name=\"LACCompositionExample\"> </a><a name=\"hcLACCompositionExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Composition &quot;LACCompositionExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-lac-composition-ddcc.html\">LAC_Composition_DDCC</a></p></div><p><b>status</b>: final</p><p><b>type</b>: Patient Summary Document <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#60591-5)</span></p><p><b>date</b>: 2023-01-15 17:26:43+0000</p><p><b>author</b>: See on this page: Organization/LACOrganizationExample</p><p><b>title</b>: Patient Summary as of 01/15/2023</p><p><b>confidentiality</b>: N</p><p><b>custodian</b>: See on this page: Organization/LACOrganizationExample</p></div>"
+                },
+                "status": "final", 
+                "type": {
+                    "coding": [
+                      {
+                        "system": "http://loinc.org",
+                        "code": "60591-5",
+                        "display": "Patient Summary Document"
+                      }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:72075264-2020-4cbe-9c52-cf1381bb9594"
+                },
+                "date": "2024-07-09T17:26:43+00:00",
+                "author": [
+                  {
+                    "reference": "urn:uuid:ec09b34a-5a8f-4e3f-b731-a0a24b8a8485"
+                  }
+                ],
+                "title": "International Patient Summary",
+                "confidentiality": "N",
+                "custodian": {
+                    "reference": "urn:uuid:ee8da067-3836-4e81-898c-f04adc93e22f"
+                },
+                "section": [
+                    {
+                        "title": "Medication Summary Section",
+                        "code" : {
+                            "coding" : [
+                              {
+                                "system" : "http://loinc.org",
+                                "code" : "10160-0",
+                                "display" : "History of Medication use Narrative"
+                              }
+                            ]
+                        },
+                          "text" : {
+                            "status" : "generated",
+                            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">To be populated at future time</div>"
+                        },
+                        "entry": [
+                            {
+                                "reference": "urn:uuid:4cce8c02-0bc9-4715-abf2-8443f50aeabc"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Allergies and Intolerances Section",
+                        "code" : {
+                            "coding" : [
+                              {
+                                "system" : "http://loinc.org",
+                                "code" : "48765-2",
+                                "display" : "Allergies and adverse reactions Document"
+                              }
+                            ]
+                        },
+                          "text" : {
+                            "status" : "generated",
+                            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">To be populated at future time</div>"
+                        },
+                        "entry": [
+                            {
+                                "reference": "urn:uuid:913df4d9-7064-4bb1-b075-53b94fc44384"
+                            },
+                            {
+                                "reference": "urn:uuid:dab35375-5c1c-4910-a577-255c15090977"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Problems Section",
+                        "code" : {
+                            "coding" : [
+                              {
+                                "system" : "http://loinc.org",
+                                "code" : "11450-4",
+                                "display" : "Problem list Reported"
+                              }
+                            ]
+                        },
+                          "text" : {
+                            "status" : "generated",
+                            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Hot flushes</div>"
+                        },
+                        "entry": [
+                            {
+                                "reference": "urn:uuid:cd6bd184-7a1a-42f1-b6f1-618d6c7b2fe9"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Immunizations",
+                        "code" : {
+                            "coding" : [
+                              {
+                                "system" : "http://loinc.org",
+                                "code" : "11369-6",
+                                "display" : "History of Immunization Narrative"
+                              }
+                            ]
+                        },
+                        "text" : {
+                            "status" : "generated",
+                            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">To be populated at future time</div>"
+                        },
+                        "entry": [
+                            {
+                                "reference": "urn:uuid:ab9e9972-64ac-474b-a2f4-11c5dd0d4661"
+                            }
+                        ]
+                    }
+                ]
+                
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:72075264-2020-4cbe-9c52-cf1381bb9594",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "72075264-2020-4cbe-9c52-cf1381bb9594",
+                "text": {
+                  "status": "generated",
+                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"2b90dd2b-2dab-4c75-9bb9-a355e07401e8\" </p></div><p><b>identifier</b>: id: 574687583</p><p><b>active</b>: true</p><p><b>name</b>: Martha DeLarosa </p><p><b>telecom</b>: <a href=\"tel:+31788700800\">+31788700800</a></p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1972-05-01</p><p><b>address</b>: Laan Van Europa 1600 Dordrecht 3317 DB NL </p><h3>Contacts</h3><table class=\"grid\"><tr><td>-</td><td><b>Relationship</b></td><td><b>Name</b></td><td><b>Telecom</b></td><td><b>Address</b></td></tr><tr><td>*</td><td>mother <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-RoleCode.html\">RoleCode</a>#MTH)</span></td><td>Martha Mum </td><td><a href=\"tel:+33-555-20036\">+33-555-20036</a></td><td>Promenade des Anglais 111 Lyon 69001 FR </td></tr></table></div>"
+                },
+                "name": [
+                  {
+                    "text": "Camila Labarca",
+                    "family": "Labarca",
+                    "given": [
+                      "Camila"
+                    ]
+                  }
+                ],
+                "identifier" : [
+                    {
+                      "use" : "official",
+                      "type" : {
+                        "coding" : [
+                          {
+                            "system" : "http://terminology.hl7.org/CodeSystem/v2-0203",
+                            "code" : "PPN"
+                          }
+                        ]
+                      },
+                      "system" : "urn:oid.2.16.152",
+                      "value" : "CL/F12-1234123-2"
+                    },
+                    {
+                      "type" : {
+                        "coding" : [
+                          {
+                            "system" : "http://terminology.hl7.org/CodeSystem/v2-0203",
+                            "code" : "TAX"
+                          }
+                        ]
+                      },
+                      "system" : "urn:oid.2.16.152",
+                      "value" : "CL/20343804-7"
+                    }
+                  ],
+                "telecom": [
+                    {
+                      "system": "phone",
+                      "value": "+56984451448",
+                      "use": "home"
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "1999-11-28",
+                        "active": true
+              }
+        },
+        {
+            "fullUrl": "urn:uuid:4cce8c02-0bc9-4715-abf2-8443f50aeabc",
+            "resource": {
+                "resourceType": "MedicationStatement",
+                "id": "4cce8c02-0bc9-4715-abf2-8443f50aeabc",
+                "text": {
+                  "status": "generated",
+                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"2b90dd2b-2dab-4c75-9bb9-a355e07401e8\" </p></div><p><b>identifier</b>: id: 574687583</p><p><b>active</b>: true</p><p><b>name</b>: Martha DeLarosa </p><p><b>telecom</b>: <a href=\"tel:+31788700800\">+31788700800</a></p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1972-05-01</p><p><b>address</b>: Laan Van Europa 1600 Dordrecht 3317 DB NL </p><h3>Contacts</h3><table class=\"grid\"><tr><td>-</td><td><b>Relationship</b></td><td><b>Name</b></td><td><b>Telecom</b></td><td><b>Address</b></td></tr><tr><td>*</td><td>mother <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-RoleCode.html\">RoleCode</a>#MTH)</span></td><td>Martha Mum </td><td><a href=\"tel:+33-555-20036\">+33-555-20036</a></td><td>Promenade des Anglais 111 Lyon 69001 FR </td></tr></table></div>"
+                },
+                "status": "active",
+                "medicationReference": {
+                    "reference": "urn:uuid:c5f96653-10a4-45ef-8d92-e93099aca08a"
+                  },
+                "subject": {
+                    "reference": "urn:uuid:72075264-2020-4cbe-9c52-cf1381bb9594"
+                },
+                "effectiveDateTime": "2020-09-07"
+            }
+        },
+        {
+            "fullUrl":"urn:uuid:c5f96653-10a4-45ef-8d92-e93099aca08a",
+            "resource": {
+                "resourceType": "Medication",
+                "id": "c5f96653-10a4-45ef-8d92-e93099aca08a",
+                "text": {
+                  "status": "generated",
+                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"2b90dd2b-2dab-4c75-9bb9-a355e07401e8\" </p></div><p><b>identifier</b>: id: 574687583</p><p><b>active</b>: true</p><p><b>name</b>: Martha DeLarosa </p><p><b>telecom</b>: <a href=\"tel:+31788700800\">+31788700800</a></p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1972-05-01</p><p><b>address</b>: Laan Van Europa 1600 Dordrecht 3317 DB NL </p><h3>Contacts</h3><table class=\"grid\"><tr><td>-</td><td><b>Relationship</b></td><td><b>Name</b></td><td><b>Telecom</b></td><td><b>Address</b></td></tr><tr><td>*</td><td>mother <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-RoleCode.html\">RoleCode</a>#MTH)</span></td><td>Martha Mum </td><td><a href=\"tel:+33-555-20036\">+33-555-20036</a></td><td>Promenade des Anglais 111 Lyon 69001 FR </td></tr></table></div>"
+                },
+                "code": {
+                    "coding": [
+                      {
+                        "system": "http://snomed.info/sct",
+                        "code": "1450002",
+                        "display": "Methylpentynol"
+                      }
+                    ]
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:913df4d9-7064-4bb1-b075-53b94fc44384",
+            "resource": {
+                "resourceType": "AllergyIntolerance",
+                "id": "913df4d9-7064-4bb1-b075-53b94fc44384",
+                "text": {
+                  "status": "generated",
+                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"2b90dd2b-2dab-4c75-9bb9-a355e07401e8\" </p></div><p><b>identifier</b>: id: 574687583</p><p><b>active</b>: true</p><p><b>name</b>: Martha DeLarosa </p><p><b>telecom</b>: <a href=\"tel:+31788700800\">+31788700800</a></p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1972-05-01</p><p><b>address</b>: Laan Van Europa 1600 Dordrecht 3317 DB NL </p><h3>Contacts</h3><table class=\"grid\"><tr><td>-</td><td><b>Relationship</b></td><td><b>Name</b></td><td><b>Telecom</b></td><td><b>Address</b></td></tr><tr><td>*</td><td>mother <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-RoleCode.html\">RoleCode</a>#MTH)</span></td><td>Martha Mum </td><td><a href=\"tel:+33-555-20036\">+33-555-20036</a></td><td>Promenade des Anglais 111 Lyon 69001 FR </td></tr></table></div>"
+                },
+                "clinicalStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+							"code": "active",
+							"display": "active"
+						}
+					]
+				},
+                "type": "allergy",
+                "category": [
+                    "environment"
+                ],
+                "criticality": "low",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "33396006",
+                            "display": "Nickel"
+                        }
+                    ]
+                },
+                "patient": {
+                    "reference": "urn:uuid:72075264-2020-4cbe-9c52-cf1381bb9594"
+                }
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:dab35375-5c1c-4910-a577-255c15090977",
+            "resource": {
+                "resourceType": "AllergyIntolerance",
+                "id": "dab35375-5c1c-4910-a577-255c15090977",
+                "text": {
+                  "status": "generated",
+                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"2b90dd2b-2dab-4c75-9bb9-a355e07401e8\" </p></div><p><b>identifier</b>: id: 574687583</p><p><b>active</b>: true</p><p><b>name</b>: Martha DeLarosa </p><p><b>telecom</b>: <a href=\"tel:+31788700800\">+31788700800</a></p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1972-05-01</p><p><b>address</b>: Laan Van Europa 1600 Dordrecht 3317 DB NL </p><h3>Contacts</h3><table class=\"grid\"><tr><td>-</td><td><b>Relationship</b></td><td><b>Name</b></td><td><b>Telecom</b></td><td><b>Address</b></td></tr><tr><td>*</td><td>mother <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-RoleCode.html\">RoleCode</a>#MTH)</span></td><td>Martha Mum </td><td><a href=\"tel:+33-555-20036\">+33-555-20036</a></td><td>Promenade des Anglais 111 Lyon 69001 FR </td></tr></table></div>"
+                },
+                "clinicalStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+							"code": "active",
+							"display": "active"
+						}
+					]
+				},
+                "type": "intolerance",
+                "category": [
+                    "food"
+                ],
+                "criticality": "low",
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "47703008",
+                            "display": "Lactose"
+                        }
+                    ]
+                },
+                "patient": {
+                    "reference": "urn:uuid:72075264-2020-4cbe-9c52-cf1381bb9594"
+                }
+            }
+        },
+        {
+            "fullUrl":"urn:uuid:cd6bd184-7a1a-42f1-b6f1-618d6c7b2fe9",
+            "resource": {
+                "resourceType": "Condition",
+                "id":"cd6bd184-7a1a-42f1-b6f1-618d6c7b2fe9",
+                "text": {
+                  "status": "generated",
+                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"2b90dd2b-2dab-4c75-9bb9-a355e07401e8\" </p></div><p><b>identifier</b>: id: 574687583</p><p><b>active</b>: true</p><p><b>name</b>: Martha DeLarosa </p><p><b>telecom</b>: <a href=\"tel:+31788700800\">+31788700800</a></p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1972-05-01</p><p><b>address</b>: Laan Van Europa 1600 Dordrecht 3317 DB NL </p><h3>Contacts</h3><table class=\"grid\"><tr><td>-</td><td><b>Relationship</b></td><td><b>Name</b></td><td><b>Telecom</b></td><td><b>Address</b></td></tr><tr><td>*</td><td>mother <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-RoleCode.html\">RoleCode</a>#MTH)</span></td><td>Martha Mum </td><td><a href=\"tel:+33-555-20036\">+33-555-20036</a></td><td>Promenade des Anglais 111 Lyon 69001 FR </td></tr></table></div>"
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system":"http://snomed.info/sct",
+                            "code": "134006",
+                            "display": "Decreased hair growth"
+                        }
+                    ],
+                    "text": "Decreased hair growth"
+                },
+                "subject": {
+                    "reference": "urn:uuid:72075264-2020-4cbe-9c52-cf1381bb9594"
+                },
+                "clinicalStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+							"code": "active",
+							"display": "active"
+						}
+					],
+					"text": "active"
+				}
+            }
+        },
+        {
+            "fullUrl":"urn:uuid:ab9e9972-64ac-474b-a2f4-11c5dd0d4661",
+            "resource": {
+                "resourceType": "Immunization",
+                "id": "ab9e9972-64ac-474b-a2f4-11c5dd0d4661",
+                "meta" : {
+                    "profile" : [
+                       "http://lacpass.racsel.org/StructureDefinition/lac-immunization"
+                    ]
+                },
+                "text" : {
+                    "status" : "extensions",
+                    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Immunization_LACImmunizationExample\"> </a><p><b>Generated Narrative: Immunization</b><a name=\"LACImmunizationExample\"> </a><a name=\"hcLACImmunizationExample\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Immunization &quot;LACImmunizationExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-lac-immunization.html\">LAC_Immunization</a></p></div><p><b>DDCC Event Brand for Immunization</b>: XM4YL8 (Details: http://id.who.int/icd/release/11/mms code XM4YL8 = 'XM4YL8', stated as 'null')</p><p><b>DDCC Vaccine Market Authorization for Immunization</b>: TEST</p><p><b>DDCC Country Of Event for Immunization</b>: CL</p><p><b>status</b>: completed</p><p><b>vaccineCode</b>: COVID-19 vaccine, non-replicating viral vector <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (mms#XM9QW8)</span></p><p><b>patient</b>: See on this page: Patient/LACPatientExample</p><p><b>occurrence</b>: 2020-11-15</p><p><b>location</b>: <span>: Administration center</span></p><p><b>lotNumber</b>: A1234</p><h3>ProtocolApplieds</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>TargetDisease</b></td><td><b>DoseNumber[x]</b></td></tr><tr><td style=\"display: none\">*</td><td>RA01 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (mms#RA01)</span></td><td>1</td></tr></table></div>"
+                },
+                "extension" : [
+                    {
+                      "url" : "http://lacpass.racsel.org/StructureDefinition/DDCCEventBrand",
+                      "valueCoding" : {
+                        "system" : "http://id.who.int/icd/release/11/mms",
+                        "code" : "XM4YL8"
+                      }
+                    },
+                    {
+                      "url" : "http://lacpass.racsel.org/StructureDefinition/DDCCCountryOfEvent",
+                      "valueCode" : "CL"
+                    }
+                ],
+                "status": "completed",
+                "vaccineCode": {
+                "coding": [
+                    {
+                      "system": "http://id.who.int/icd/release/11/mms",
+                      "code": "XM68M6",
+                      "display": "COVID-19 vaccine"
+                    }
+                  ]
+				        },
+                "patient": {
+					"reference": "urn:uuid:72075264-2020-4cbe-9c52-cf1381bb9594"
+				},
+                "occurrenceDateTime": "2021-08-29",
+                "location" : {
+                    "display" : "Administration center"
+                },
+                "protocolApplied" : [
+                    {
+                      "targetDisease" : [
+                        {
+                          "coding" : [
+                            {
+                              "system" : "http://id.who.int/icd/release/11/mms",
+                              "code" : "RA01"
+                            }
+                          ]
+                        }
+                      ],
+                      "doseNumberPositiveInt" : 1,
+                      "authority": {
+                        "reference": "urn:uuid:ee8da067-3836-4e81-898c-f04adc93e22f"
+                      }
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl":"urn:uuid:ee8da067-3836-4e81-898c-f04adc93e22f",
+            "resource": {
+                "resourceType": "Organization",
+                "id": "ee8da067-3836-4e81-898c-f04adc93e22f",
+                "text": {
+                  "status": "generated",
+                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"2b90dd2b-2dab-4c75-9bb9-a355e07401e8\" </p></div><p><b>identifier</b>: id: 574687583</p><p><b>active</b>: true</p><p><b>name</b>: Martha DeLarosa </p><p><b>telecom</b>: <a href=\"tel:+31788700800\">+31788700800</a></p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1972-05-01</p><p><b>address</b>: Laan Van Europa 1600 Dordrecht 3317 DB NL </p><h3>Contacts</h3><table class=\"grid\"><tr><td>-</td><td><b>Relationship</b></td><td><b>Name</b></td><td><b>Telecom</b></td><td><b>Address</b></td></tr><tr><td>*</td><td>mother <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-RoleCode.html\">RoleCode</a>#MTH)</span></td><td>Martha Mum </td><td><a href=\"tel:+33-555-20036\">+33-555-20036</a></td><td>Promenade des Anglais 111 Lyon 69001 FR </td></tr></table></div>"
+                },
+                "name": "Ministerio de Salud",
+                "address" : [
+                    {
+                      "text" : "Enrique Mac Iver 541, Santiago, Región Metropolitana",
+                      "country" : "CL"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl":"urn:uuid:2eb57b01-5065-451a-8ef5-dc75beff7539",
+            "resource": {
+                "resourceType": "Practitioner",
+                "id": "2eb57b01-5065-451a-8ef5-dc75beff7539",
+                "text": {
+                  "status": "generated",
+                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"2b90dd2b-2dab-4c75-9bb9-a355e07401e8\" </p></div><p><b>identifier</b>: id: 574687583</p><p><b>active</b>: true</p><p><b>name</b>: Martha DeLarosa </p><p><b>telecom</b>: <a href=\"tel:+31788700800\">+31788700800</a></p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1972-05-01</p><p><b>address</b>: Laan Van Europa 1600 Dordrecht 3317 DB NL </p><h3>Contacts</h3><table class=\"grid\"><tr><td>-</td><td><b>Relationship</b></td><td><b>Name</b></td><td><b>Telecom</b></td><td><b>Address</b></td></tr><tr><td>*</td><td>mother <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-RoleCode.html\">RoleCode</a>#MTH)</span></td><td>Martha Mum </td><td><a href=\"tel:+33-555-20036\">+33-555-20036</a></td><td>Promenade des Anglais 111 Lyon 69001 FR </td></tr></table></div>"
+                },
+                "name": [
+                    {
+                      "use": "official",
+                      "text": "Helen Georgiou",
+                      "family": "Georgiou",
+                      "given": [
+                        "Helen"
+                      ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl":"urn:uuid:ec09b34a-5a8f-4e3f-b731-a0a24b8a8485",
+            "resource": {
+                "resourceType": "PractitionerRole",
+                "id": "ec09b34a-5a8f-4e3f-b731-a0a24b8a8485",
+                "text": {
+                  "status": "generated",
+                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"2b90dd2b-2dab-4c75-9bb9-a355e07401e8\" </p></div><p><b>identifier</b>: id: 574687583</p><p><b>active</b>: true</p><p><b>name</b>: Martha DeLarosa </p><p><b>telecom</b>: <a href=\"tel:+31788700800\">+31788700800</a></p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1972-05-01</p><p><b>address</b>: Laan Van Europa 1600 Dordrecht 3317 DB NL </p><h3>Contacts</h3><table class=\"grid\"><tr><td>-</td><td><b>Relationship</b></td><td><b>Name</b></td><td><b>Telecom</b></td><td><b>Address</b></td></tr><tr><td>*</td><td>mother <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-RoleCode.html\">RoleCode</a>#MTH)</span></td><td>Martha Mum </td><td><a href=\"tel:+33-555-20036\">+33-555-20036</a></td><td>Promenade des Anglais 111 Lyon 69001 FR </td></tr></table></div>"
+                },
+                "practitioner": {
+					"reference": "urn:uuid:2eb57b01-5065-451a-8ef5-dc75beff7539"
+				},
+				"organization": {
+					"reference": "urn:uuid:ee8da067-3836-4e81-898c-f04adc93e22f"
+				}
+            }
+        }
+
+    ]
+}
