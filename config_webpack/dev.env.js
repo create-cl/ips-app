@@ -10,5 +10,6 @@ module.exports = merge(prodEnv, {
   BROADCAST_URL: JSON.stringify(process.env.BROADCAST_URL),
   VHL_RECIPIENT_NAME: JSON.stringify(process.env.VHL_RECIPIENT_NAME),
   FHIR_MEDIATORS: JSON.stringify(process.env.FHIR_MEDIATORS),
+  VHL_URL: JSON.stringify(process.env.VHL_URL),
   NODE_ENV: '"development"'
 });

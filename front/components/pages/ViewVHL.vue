@@ -91,7 +91,7 @@ export default {
             this.loading = true;
             this.qrCode = this.qrCode.replace(/:\s/, ":");
             const params = {
-              query: { url: "http://lacpass.create.cl:8182/v2/vshcValidation" }
+              query: { url: process.env.VHL_URL + "v2/vshcValidation" }
             }; 
             const body = {
               "qrCodeContent": this.qrCode

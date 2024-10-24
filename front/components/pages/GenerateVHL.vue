@@ -238,7 +238,7 @@ export default {
         passCode: this.password
       };
       const params = {
-        query: { url: "http://lacpass.create.cl:8182/v2/vshcIssuance" }
+        query: { url: process.env.VHL_URL + "v2/vshcIssuance" }
       };
 
       this.$service("api/proxy-ips").create(body, params)
