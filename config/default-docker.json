@@ -1,5 +1,4 @@
 {
-  "host": "186.64.123.214:5432",
   "port": 5002,
   "public": "../static/",
   "paginate": {
@@ -28,7 +27,7 @@
       "passwordField": "password"
     }
   },
-  "postgres": "postgres://admin:adminips@186.64.123.214:5432/ips", 
+  "postgres": "postgres://admin:adminips@database:5432/ips", 
  "admin": {
     "email": "admin@create.cl",
     "password": "admin2023"
