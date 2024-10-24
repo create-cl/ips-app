@@ -1,5 +1,15 @@
 # IPSApp
 
+## Usage
+
+Copy and edit the `.env` file
+
+    cp .env.sample .env
+
+Start the service using docker
+
+    docker compose up -d
+
 ## Requirements
 
 - NodeJS 12+
